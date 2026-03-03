@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and envs
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Misc
+*.log
