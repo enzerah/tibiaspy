@@ -26,7 +26,6 @@ Este repositório é uma **versão pública e documental** do projeto TibiaSpy.
 - `docs/DECISIONS.md` — decisões técnicas e trade-offs
 - `docs/DATA_MODEL.md` — entidades e relacionamentos
 - `docs/OPERATION.md` — operação, deploy e troubleshooting
-- `docs/SECURITY_AND_PRIVACY.md` — controles e redactions
 - `docs/ROADMAP.md` — evolução planejada
 - `docs/FAQ.md` — perguntas comuns
 - `docs/EXAMPLES.md` — exemplos fictícios de entrada/saída
@@ -37,7 +36,6 @@ Este repositório é uma **versão pública e documental** do projeto TibiaSpy.
 1. Comece por `docs/ARCHITECTURE.md`.
 2. Consulte `docs/DECISIONS.md` para contexto de design.
 3. Use `docs/DIAGRAMS.md` para leitura rápida em apresentações.
-4. Leia `docs/SECURITY_AND_PRIVACY.md` antes de compartilhar externamente.
 
 ## Licença do conteúdo
 
