@@ -13,6 +13,23 @@ Este repositório é uma **versão pública e documental** do projeto TibiaSpy.
 - Segurança, privacidade e limites do escopo público
 - Roadmap e lições aprendidas
 
+## Stack técnico (resumo)
+
+- **Linguagem e runtime:** Python 3.10+
+- **Bot e comandos Discord:** Nextcord (slash commands e loops assíncronos)
+- **Persistência:** SQLAlchemy ORM com SQLite em desenvolvimento e PostgreSQL em produção
+- **Dashboard e APIs internas:** Flask
+- **Coleta de dados:** providers de scraping por OT, com contrato padronizado para facilitar expansão
+- **Operação e deploy:** Docker Compose, systemd e automações de manutenção
+- **Qualidade e segurança:** Pytest, validações de configuração e hardening documentado
+
+### Impacto prático da stack
+
+- **Escalabilidade por contexto:** isolamento por servidor Discord e OT para suportar múltiplos ambientes sem conflito.
+- **Evolução incremental:** arquitetura por providers permite adicionar novos OTs sem refatorar o núcleo.
+- **Confiabilidade operacional:** painéis fixos e atualização idempotente reduzem ruído e inconsistência de estado.
+- **Manutenção simplificada:** SQLAlchemy e documentação operacional diminuem risco em mudanças e deploys.
+
 ## O que não está incluído
 
 - Código-fonte do bot/dashboard
